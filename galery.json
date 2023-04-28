@@ -1,0 +1,25 @@
+{
+    "images": [
+      {
+        "src": "Image/Home/Gallery1.jpg",
+        "alt": "Image 1",
+        "description": "COFFE"
+      },
+      {
+        "src": "Image/Home/Gallery2.jpg",
+        "alt": "Image 2",
+        "description": "BREAKFAST"
+      },
+      {
+        "src": "Image/Home/Gallery3.jpg",
+        "alt": "Image 3",
+        "description": "SANDWICH"
+      },
+      {
+        "src": "Image/Home/Gallery4.jpg",
+        "alt": "Image 3",
+        "description": "JUICE"
+      }
+    ]
+  }
+  
