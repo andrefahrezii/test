@@ -9,9 +9,11 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="sal.scss">
 </head>
 
 <body>
+    <script src="path/to/sal.js"></script>
     <header>
         <nav>
             <div class="logo">
@@ -30,7 +32,7 @@
         </nav>
     </header>
 
-    <main>
+    <main data-sal="slide-up" data-sal-delay="300" data-sal-easing="ease-out-back">
         <div class="hero-image">
             <div class="hero-text">
                 <h1>Life Begins after Coffee.</h1>
@@ -59,12 +61,12 @@
 
         <div class="div-images">
             <?php foreach ($images as $image) : ?>
-            <div class="image-overlay">
-                <img src="<?= $image['src'] ?>" alt="<?= $image['alt'] ?>" alt="image" class="images">
-                <div class="image-text">
-                    <h2><?= $image['description'] ?></h2>
+                <div class="image-overlay">
+                    <img src="<?= $image['src'] ?>" alt="<?= $image['alt'] ?>" alt="image" class="images">
+                    <div class="image-text">
+                        <h2><?= $image['description'] ?></h2>
+                    </div>
                 </div>
-            </div>
             <?php endforeach; ?>
         </div>
 
@@ -147,7 +149,6 @@
                     <a href="https://www.facebook.com/"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
                     <a href="https://www.instagram.com/"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
                 </div>
-
             </div>
             <div class="div2-footer">
                 <div>
@@ -156,9 +157,8 @@
                 <div>
                     <div class="newsletter">
                         <form action="#" method="post" class="newsletter-form">
-                            <input type="email" name="email" placeholder="Enter your email address" required
-                                class="newsletter-input">
-                            <button type="submit" class="newsletter-button">Subscribe</button>
+                            <input type="email" name="email" placeholder="YOUR EMAIL ADDRESS" required class="newsletter-input">
+                            <button type="submit" class="newsletter-button">SUBSCRIBE</button>
                         </form>
                     </div>
 
@@ -167,11 +167,11 @@
             </div>
         </div>
 
-</body>
+        <!-- </body> -->
 
-</main>
+    </main>
 
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
