@@ -8,6 +8,7 @@
     <title>My Website</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -95,11 +96,11 @@
                 </div>
                 <div class="div2-halth">
                     <img src="Icons/Icon/sun.svg" alt="" class="img-halth1">
-                    <h4 class="h2-sun">BOOST ENERGY LEVEL</h4>
+                    <h4 class="h2-sun">REDUCE DEPRESSION</h4>
                 </div>
                 <div class="div2-halth">
-                    <img src="Icons/Icon/weight.svg" alt="" class="img-halth">
-                    <h4 class="h2-weight">BOOST ENERGY LEVEL</h4>
+                    <img src="Icons/Icon/weight.svg" alt="" class="img-halth2">
+                    <h4 class="h2-weight">AID IN WEIGHT LOSS</h4>
                 </div>
             </div>
         </div>
@@ -110,9 +111,10 @@
                 <img src="image/Home/blog 1.jpg" alt="" class="img-blog">
             </div>
             <div class="div2-halth">
-                <h3>BLOG</h3>
-                <h5>Qui espresso, grounds
-                    to go</h5>
+                <h3 class="h3-blog">BLOG</h3>
+                <h2 class="h5-blogs">Qui espresso, grounds
+                </h2>
+                <h2 class="h5-blogs">to go</h2>
                 <h5 class="h5-blog">December 12, 2019 | Espresso</h5>
                 <div>
                     <p class="p-blog">Skinny caffeine aged variety filter saucer redeye, sugar
@@ -131,23 +133,45 @@
 
 
         <div class="div-footer">
-            <div>
+            <div class="divimg-footer">
                 <img src="Icons/Icon/logo.svg" alt="" class="img-footer">
             </div>
             <div class="div2-footer">
-                <div>
-                    <h2>2</h2>
-                    <div>
-                        <h2>3</h2>
-                    </div>
+                <div class="h4-footer">
+                    <h4>2800 S White Mountain Rd | Show Low AZ 85901</h4>
+                </div>
+                <div class="h4-footer">
+                    <h4>(928) 537-1425 | info@grinder-coffee.com</h4>
+                </div>
+                <div class="icon-footer">
+                    <a href="https://www.facebook.com/"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
                 </div>
 
             </div>
+            <div class="div2-footer">
+                <div>
+                    <h4 class="news-footer">NEWSLETTER</h4>
+                </div>
+                <div>
+                    <div class="newsletter">
+                        <form action="#" method="post" class="newsletter-form">
+                            <input type="email" name="email" placeholder="Enter your email address" required
+                                class="newsletter-input">
+                            <button type="submit" class="newsletter-button">Subscribe</button>
+                        </form>
+                    </div>
 
+
+                </div>
+            </div>
         </div>
-    </main>
 
-    <script src="script.js"></script>
+</body>
+
+</main>
+
+<script src="script.js"></script>
 </body>
 
 </html>

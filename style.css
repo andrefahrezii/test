@@ -5,6 +5,11 @@
 }
 
 @font-face {
+    font-family: 'h3blog';
+    src: url('Barlow_Condensed/BarlowCondensed-ExtraLight.ttf') format('truetype');
+}
+
+@font-face {
     font-family: 'Barlow';
     src: url('Barlow_Condensed/BarlowCondensed-Thin.ttf') format('truetype');
 }
@@ -21,6 +26,17 @@
 
 @font-face {
     font-family: 'Barlow2';
+    src: url('Barlow_Condensed/BarlowCondensed-ExtraLight.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'h5-blogs';
+    src: url('Crimson_Text/CrimsonText-SemiBoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'h4-readmore';
     src: url('Barlow_Condensed/BarlowCondensed-ExtraLight.ttf') format('truetype');
 }
 
@@ -239,7 +255,7 @@ nav ul li a {
 }
 
 .div2-halth {
-    padding: 20px;
+    padding: 55px;
 }
 
 .h1-halth {
@@ -250,11 +266,12 @@ nav ul li a {
 
 
 .img-halth {
-    padding-bottom: 20px;
-    padding-top: 20px;
+    padding-bottom: 48px;
+    padding-top: 43px;
     justify-content: center;
+    display: flex;
     /* position: initial; */
-    padding-left: 39px;
+    padding-left: 20px;
 }
 
 .img-halth1 {
@@ -262,7 +279,16 @@ nav ul li a {
     padding-top: 20px;
     justify-content: center;
     /* position: initial; */
-    padding-left: 39px;
+    padding-left: 15px;
+}
+
+.img-halth2 {
+    padding-bottom: 40px;
+    padding-top: 43px;
+    justify-content: center;
+    display: flex;
+    /* position: initial; */
+    padding-left: 20px;
 }
 
 .img-blog {
@@ -277,35 +303,98 @@ nav ul li a {
 .h2-halth {
     justify-content: center;
     display: flex;
-    padding-top: 46px;
+    /* padding-top: 46px; */
     /* font-family: ; */
     font-family: 'Barlow2';
-}
-
-.div-footer {
-    background-color: #999;
-}
-
-.div2-footer {
-    padding-top: 30px;
-
-}
-
-.img-footer {
-    padding-top: 40px;
-    padding-left: 80px;
+    padding-top: 20px;
 }
 
 .h2-sun {
     justify-content: center;
     display: flex;
-    padding-top: 0px;
+    padding-top: 20px;
     /* font-family: ; */
     font-family: 'Barlow2';
 }
 
+.h2-weight {
+    justify-content: center;
+    display: flex;
+    /* padding-top: 20px; */
+    /* font-family: ; */
+    font-family: 'Barlow2';
+}
+
+.h3-blog {
+    font-family: 'h3blog';
+}
+
+.div-footer {
+    /* background-color: darkslategrey; */
+    background-color: dimgrey;
+    justify-content: center;
+    display: flex;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.div2-footer {
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 20px;
+}
+
+.icon-footer {
+    color: #fff;
+    justify-content: center;
+    display: flex-end;
+    padding-top: 10px;
+}
+
+.news-footer {
+    color: #fff;
+    font-family: 'h3blog';
+}
+
+.fa-facebook,
+.fa-instagram {
+    color: white;
+}
+
+.img-footer {
+    padding-top: 40px;
+    padding-left: 21px;
+    /* color: #fff; */
+    padding-right: 30px;
+    /* filter: invert(1); */
+}
+
+.divimg-footer {
+    padding-top: -10px;
+    padding-left: 21px;
+    /* color: #fff; */
+    padding-right: 30px;
+}
+
+.h4-footer {
+    padding-bottom: 10px;
+    color: white;
+    font-family: 'Barlow2';
+}
+
+
+
 .h5-blog {
     font-family: 'Barlow2';
+}
+
+.h5-blogs {
+    font-family: 'h5-blogs';
+}
+
+.h4-readmore {
+    padding-top: 30px;
+    font-family: 'h4-readmore';
 }
 
 .div-image {
@@ -313,10 +402,7 @@ nav ul li a {
     display: flex;
 }
 
-.h4-readmore {
-    padding-top: 30px;
 
-}
 
 .div-image-blog {
     justify-content: center;
@@ -325,13 +411,7 @@ nav ul li a {
     padding-bottom: 40px;
 }
 
-.h2-weight {
-    justify-content: center;
-    display: flex;
-    padding-top: 20px;
-    /* font-family: ; */
-    font-family: 'Barlow2';
-}
+
 
 .btn {
     background-color: #f1c40f;
@@ -342,4 +422,44 @@ nav ul li a {
     display: inline-block;
     margin-top: 1rem;
     font-family: 'btn';
+}
+
+
+
+.newsletter-title {
+    font-size: 24px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.newsletter-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.newsletter-input {
+    padding: 10px;
+    border: none;
+    border-radius: 0px;
+    margin-right: 0px;
+}
+
+.newsletter-button {
+    padding: 10px 20px;
+    background-color: #f1c40f;
+    border: none;
+    border-radius: 0px;
+    color: #F5DEB3;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.newsletter-button:hover {
+    background-color: #f1c40f;
+    color: white;
+}
+
+.newsletter {
+    padding-top: 10px;
 }
